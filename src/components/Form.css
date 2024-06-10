@@ -1,0 +1,75 @@
+/* General form styling */
+.form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+/* Label styling */
+.form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+/* Input styling */
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Button styling */
+.form .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form .btn:hover {
+    background-color: #0056b3;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color: #007bff;
+    color: #fff;
+}
+
+thead th {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+tbody tr {
+    border-bottom: 1px solid #ccc;
+}
+
+tbody td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Add some spacing between table rows */
+tbody tr:not(:last-child) {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,37 @@
+
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    height: 60px;
+    background-color: black;
+  }
+
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    position: sticky;
+    top:0px;
+    z-index: 1;
+    
+    height: 40px;
+    background-color: black;
+
+}
+li {
+    color:white;
+    list-style: none;
+    margin-right:  50px;
+    padding-top: 5px;
+}
+li:hover{
+    color:aqua;
+
+}
